@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./FONT AWESOME/fontawesome-free-6.7.2-web/css/all.css">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background-color: #090909;
+            
+        }
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 196px;
+            padding: 24px;
+        }
+        .sidebar .logo img {
+            width: 130px;
+        }
+        .sidebar .navigation ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+        .sidebar .navigation ul li {
+            padding: 10px 0px;
+        }
+        .sidebar .navigation ul li a {
+            color: #b3b3b3;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .sidebar .navigation ul li a:hover {
+            color: white;
+        }
+        .sidebar .policies {
+            position: absolute;
+            bottom: 30px;
+        }
+        .sidebar .policies ul {
+            list-style: none;
+        }
+        .sidebar .policies ul li a {
+            color: #b3b3b3;
+            font-size: 10px;
+            text-decoration: none;
+        }
+        .main-container {
+            margin-left: 240px;
+            background-color: black;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 30px;
+        }
+        .topbar .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            padding: 5px;
+            border-radius: 20px;
+            width: 300px;
+            margin-right: 45%;
+        }
+        .topbar .search-bar input {
+            border: 2px solid #1db954;
+            outline: none;
+            padding: 10px;
+            font-size: 15px;
+            width: 100%;
+            border-radius: 20px;
+            
+        }
+        .topbar .search-bar i {
+            color: #000;
+            margin-left: 5px;
+        }
+        
+
+        .topbar .prev-next-buttons button {
+            color: #7a7a7a;
+            width: 34px;
+            height: 34px;
+            border-radius: 100%;
+            font-size: 18px;
+            border: 0px;
+            background-color: white;
+            margin-right: 10px;
+            cursor: pointer;
+            
+            
+            }
+            
+            .container{
+                display: flex;
+                margin-left:250px ;
+                margin-top: 10px;
+                padding: 10px;
+        
+
+            }
+
+            h1{
+                font-size: 75px;
+                margin-top: 70px;
+                margin-left: 150px;
+                color: white;
+                text-shadow: 0 0 10px #1db954;
+                text-align: center;
+            }
+
+
+            .image{
+                box-shadow: 0 0 10px #1db954;
+                border-radius: 5px;
+                margin-left: 150px;
+                height: 300px;
+                width: 250px;
+            }
+
+            input{
+                color: white;
+            }
+            h2{
+                color: white;
+                margin-left: 260px;
+                margin-top: 20px;
+                font-size: 30px;
+            }
+
+           .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 50%;
+            margin-left: 430px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .album-name {
+            
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        .like-button {
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
+            </a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="./index1.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fa fa-book"></i> Your Library</a></li>
+                <li><a href="#"><i class="fa fa-plus-square"></i> Create Playlist</a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> Liked Songs</a></li>
+            </ul>
+        </div>
+        <div class="policies">
+            <ul>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <a href="./index.html"><button type="button" class="fa fas fa-chevron-left"></button></a>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+              </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <i class="fa fa-search" style="margin-right: 5px;"> </i>
+            </div>
+        </div>
+    </div>
+    <h2>Playlist</h2>
+    <div class="container">
+       
+            <img src="./IMAGES/GV PRAKASH" alt="" class="image">
+            
+            <h1>GV PRAKASH</h1>
+
+           
+            
+    </div>
+
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Pirai Thedum _ Mayakkam Enna.mp3" controls></audio>
+        <div class="album-name">Pirai Thedum </div>
+        <button class="like-button">❤️</button>
+    </div>
+    
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Unn Perai Sollum.mp3" controls></audio>
+        <div class="album-name">Unn Perai Sollum</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Raasa Raasa - Lyrical _ Kingston _ GV Prakash Kumar _ Divyabharathi _ Kamal Prakash _ Sublahshini.mp3" controls></audio>
+        <div class="album-name">Raasa Raasa</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Trisha Illana Nayanthara - Yennachu Yedhachu Video _ G.V. Prakash Kumar, Anandhi.mp3" controls></audio>
+        <div class="album-name">Yennachu Yedhachu</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Hey Minnale - Video Song _ Amaran _ Sivakarthikeyan, Sai Pallavi _ GV Prakash _ Rajkumar Periasamy.mp3" controls></audio>
+        <div class="album-name">Hey Minnale</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Aadukalam - Ayyayo Tamil Lyric Video _ Dhanush _ G.V. Prakash Kumar (2).mp3" controls></audio>
+        <div class="album-name">Ayyayo Ayyayo </div>
+        <button class="like-button">❤️</button>
+    </div>
+    
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Aadukalam - Yathe Yathe Tamil Lyric Video _ Dhanush _ G.V. Prakash Kumar.mp3" controls></audio>
+        <div class="album-name">Yathe Yathe</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Minikki Minikki - Video Song (Tamil) _ Thangalaan _ Chiyaan Vikram _ Pa Ranjith _ GV Prakash Kumar.mp3" controls></audio>
+        <div class="album-name">Minikki Minikki</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Anbe Anbe _ Full Song with Lyrics _ Darling.mp3" controls></audio>
+        <div class="album-name">Anbe Anbe</div>
+        <button class="like-button">❤️</button>
+    </div>
+
+    <div class="container1">
+        <audio src="./AUDIO/GV PRAKSH/Idu Enna Maayam - Iravaaga Nee Video _ Vikram Prabhu, Keerthy _ G.V. Prakash.mp3" controls></audio>
+        <div class="album-name">Hey Minnale</div>
+        <button class="like-button">❤️</button>
+    </div>
+   
+</body>
+</html>
